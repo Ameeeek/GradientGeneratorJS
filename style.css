@@ -5,7 +5,8 @@ body{
     text-align : center;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(45deg, rgb(225, 198, 20), rgb(180, 0, 204));
+    background-color: #212121; 
+    background-repeat: no-repeat;
 }
 
 #gradient{
