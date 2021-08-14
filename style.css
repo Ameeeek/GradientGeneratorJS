@@ -5,10 +5,11 @@ body{
     text-align : center;
     height: 100vh;
     color: #fff;
-    background-color : #212121;
+    background: linear-gradient(45deg, rgb(225, 198, 20), rgb(180, 0, 204));
 }
 
 #gradient{
+    position: relative;
     background: linear-gradient(45deg, #00ff00, #ff0000);
     width: 250px;
     height:320px;
@@ -46,3 +47,8 @@ a{
     text-decoration: none;
     color: #fff;
 }
+@media (max-width: 768px) {
+    #gradient{
+        transform: translateX(-350%);
+    }
+} 
